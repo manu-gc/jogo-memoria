@@ -1,0 +1,31 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: rgb(224, 201, 211);
+   text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    color:rgb(121, 100, 111)
+
+}
+
+#info {
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.game-board {
+    width: 320px;
+    height: 100px;
+    border: 5px solid rgb(125, 102, 112);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat (4, 70px);
+    gap: 10px;
+    margin: 20px auto;
+
+
+
+}
