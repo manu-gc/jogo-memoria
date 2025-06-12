@@ -107,9 +107,14 @@ function verificarSeEhPar() {
             paresEncontrados++;
             visorPontos.textContent = pontuacao;
             limparCartasSelecionadas();
+
+            const somSucesso = document.getElementById("som-sucesso");
+            somSucesso.play()
     } else {
         setTimeout(function() {
             esconderCartas();
+            const somErro = document.getElementById("som-erro");
+            somErro.play();
         }, 1000);
     }
 
